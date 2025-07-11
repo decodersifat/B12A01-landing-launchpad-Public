@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 
 .logo {
@@ -57,9 +58,17 @@ body {
     border: none;
     border-radius: 10px;
     color: white;
+    transition: all 1s;
     padding: 12px 24px;
     font-size: 14px;
     font-family: 'Raleway';
+}
+
+.signup-btn:hover{
+    border-radius: 5px;
+    border: 2px solid #4E47FF;
+    background-color: white;
+    color:#362ff5;
 }
 
 .hero-text {
@@ -80,12 +89,24 @@ body {
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
+    transition: all 1s;
     color: white;
     padding: 12px 28px;
     font-size: 12px;
     margin-top: 35px;
     font-family: 'Raleway';
 }
+
+
+
+.focus-btn:hover{ 
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #4E47FF;
+    background-color: white;
+    color:#362ff5;
+}
+
 
 .action-section {
     width: 100%;
@@ -100,6 +121,13 @@ body {
     border-radius: 48px;
     height: 328px;
     width: 430px;
+    transition: all 1s;
+}
+
+.right-action-img img:hover{
+    border-radius: 5px;
+    height: 350px;
+    width: 430px;
 }
 
 .live-preview-btn {
@@ -111,6 +139,15 @@ body {
     font-size: 12px;
     margin-top: 15px;
     font-family: 'Raleway';
+    transition: all 1s;
+}
+
+.live-preview-btn:hover{ 
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #4E47FF;
+    background-color: white;
+    color:#362ff5;
 }
 
 .left-action-text h3 {
@@ -147,7 +184,12 @@ body {
     gap: 30px;
     align-items: center;
     box-shadow: 12px #4E47FF;
+    transition: all .5s;
 
+}
+
+.contain-productive-content:hover{
+    box-shadow: 2px 2px 20px gray;
 }
 
 .contain-productive-content h2 {
@@ -208,9 +250,17 @@ body {
 }
 
 .service-section img {
+    padding-top: 5px;
     height: 250px;
     width: 600px;
     border-radius: 48px;
+    transition: all 1s;
+}
+
+.service-section img:hover{
+    border-radius: 10px;
+    height: 280px;
+    width: 650px;
 }
 
 .service-section-wrapper h2 {
@@ -256,6 +306,13 @@ body {
     padding: 20px;
     margin: 45px;
     border-radius: 10px;
+    transition: all .5s;
+}
+
+.review-item:hover{
+    height: 160px;
+    width: 410px;
+    box-shadow: 2px 2px 20px gray;
 }
 
 .star-review {
@@ -301,7 +358,7 @@ body {
     width: 99%;
     min-height: 600px;
     display: flex;
-    gap: 40px;      
+    gap: 90px;      
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
@@ -312,6 +369,7 @@ body {
     font-family: "Inter";
     font-size: 70px;
     text-align: center;
+    padding-left: 20px;
 }
 
 .contact-form form {
@@ -347,6 +405,15 @@ body {
     font-family: 'Raleway';
     width: 100%;
     margin-top: 10px;
+    transition: all 1s;
+}
+
+.contact-form button:hover{ 
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #4E47FF;
+    background-color: white;
+    color:#362ff5;
 }
 
 label {
